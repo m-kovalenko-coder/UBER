@@ -19,8 +19,9 @@
     .line
         max-width: 299px
     .links
-        flex-direction: column
-        align-items: center
+        &_wrapper
+            flex-direction: column
+            align-items: center
         &_width
             width: 100%
             &:nth-child(2)
@@ -38,7 +39,6 @@
             margin: 0 auto
         &_stores
             margin-top: 20px
-
 @media (max-width: 991px)
     .menu
         &_item
@@ -74,7 +74,6 @@
     .possibility
         &_car
             width: 100%
-
 @media (max-width: 767px)
     .menu
         position: fixed
@@ -141,7 +140,6 @@
             height: 40px
     .title
         font-size: 30px
-
 @media (max-width: 575px)
     nav
         height: 30px
@@ -277,7 +275,8 @@
     .line
         width: 253px
     .links
-        padding: 25px 18px 20px 18px
+        &_wrapper
+            padding: 25px 18px 20px 18px
         &_list
             width: 100%
             &_main
@@ -292,5 +291,10 @@
                     line-height: 22px
             &_language
                 margin-top: 7px
+        &_stores
+            display: flex
+            justify-content: center
+            flex-wrap: wrap
+            row-gap: 10px
 
 
