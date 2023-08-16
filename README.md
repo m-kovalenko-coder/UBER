@@ -1,6 +1,4 @@
-# m-kovalenko-coder.github.io
-
-UBER training coding.
+# UBER training coding.
 
 It's my first project on GitHub, it contains code for basic web development. 
 
